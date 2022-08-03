@@ -1,0 +1,3 @@
+C:\Users\kimjeonghyeon\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\socket.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\socket.dir/objects.a @CMakeFiles\socket.dir\objects1.rsp
+C:\MinGW\bin\mingw32-gcc.exe -g -Wl,--whole-archive CMakeFiles\socket.dir/objects.a -Wl,--no-whole-archive -o socket.exe -Wl,--out-implib,libsocket.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\socket.dir\linklibs.rsp
