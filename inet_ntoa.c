@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
 
     inet_ntoa(addr2.sin_addr);
     printf("Dotted-Decimal notation2: %s \n", str_ptr);
+    printf("Dotted-Decimal notation3: %s \n", str_arr);
+
     printf("str_arr sizeof: %d \n", sizeof(str_arr));
     printf("str_arr[0]: %c \n", str_arr[0]); // 1
     printf("str_arr[1]: %c \n", str_arr[1]); // .
