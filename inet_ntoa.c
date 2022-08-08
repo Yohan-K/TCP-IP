@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 #include <string.h>
-#include <winsock2.h>
+#include <arpa/inet.h>
 
 int main(int argc, char *argv[])
 {
@@ -21,16 +21,5 @@ int main(int argc, char *argv[])
     inet_ntoa(addr2.sin_addr);
     printf("Dotted-Decimal notation2: %s \n", str_ptr);
     printf("Dotted-Decimal notation3: %s \n", str_arr);
-
-    printf("str_arr sizeof: %d \n", sizeof(str_arr));
-    printf("str_arr[0]: %c \n", str_arr[0]); // 1
-    printf("str_arr[1]: %c \n", str_arr[1]); // .
-    printf("str_arr[2]: %c \n", str_arr[2]); // 2
-    printf("str_arr[3]: %c \n", str_arr[3]); // .
-    printf("str_arr[4]: %c \n", str_arr[4]); // 3
-    printf("str_arr[5]: %c \n", str_arr[5]); // .
-    printf("str_arr[6]: %c \n", str_arr[6]); // 4
-    printf("str_arr[7]: %c \n", str_arr[7]); //
-    printf("str_arr[8]: %c \n", str_arr[8]); // ?
     return 0;
 }

@@ -2,7 +2,7 @@
 // Created by kimjeonghyeon on 2022-08-06.
 //
 #include <stdio.h>
-#include <winsock2.h>
+#include <arpa/inet.h>
 
 int main(int argc, char *argv[])
 {

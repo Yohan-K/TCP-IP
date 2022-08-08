@@ -3,10 +3,9 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-// #include <arpa/inet.h>
-// 윈도우 전용 소켓 함수
-#include <winsock2.h>
-void ErrorHandling(char *message);
+#include <arpa/inet.h>
+
+void error_handling(char *message);
 
 int main(int argc, char *argv[])
 {
@@ -20,7 +19,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 
-void ErrorHandling(char *message)
+void error_handling(char *message)
 {
     fputs(message, stderr);
     fputc('\n', stderr);
